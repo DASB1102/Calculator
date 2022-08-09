@@ -1,0 +1,52 @@
+table{
+    border:4px solid ;
+    width: 500px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-spacing: 15px;
+    background-color:floralwhite;
+    border-style:ridge;
+    border-width: 20px;
+    
+}
+
+td{
+    border: 4px;
+    border-style: groove;
+    padding: 15px;
+    text-align: center;
+    font-family:cursive;
+    font-size:x-large ;
+    font-weight: bolder;
+    background-color: cornsilk;
+   
+
+}
+input{
+    padding: 25px;
+    width: 300px;
+    font-size: x-large;
+    text-align: right;
+}
+td:hover{
+    background-color:wheat;
+}
+
+.off{
+    background-color: #FF0000;
+}
+
+.on{
+    background-color: #00FF33;
+}
+
+.equal{
+    background-color: blue;
+}
+
+
+body{
+    background-color:lightslategray;
+}

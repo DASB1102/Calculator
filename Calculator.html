@@ -1,0 +1,59 @@
+<!--
+    Name : Dev Bhatia 
+    DOC :  02/07/2022
+    Objective : To make a simple calculator with the help of html,css,js
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "Calculator.css">
+    <script src = "Calculator.js"> </script>
+</head>
+
+<body>
+    <table name="t">
+        
+        <tr>
+           <td colspan="4"><input type="text" id="result" /></td>
+        </tr>
+        <tr>
+            <td onclick="display('+')">+</td>
+            <td onclick="display('-')">-</td>
+            <td onclick="display('/')">/</td>
+            <td onclick="display('*')">*</td>
+        </tr>
+        
+        
+        <tr>
+            <td onclick="display('7')">7</td>
+            <td onclick="display('8')">8</td>
+            <td onclick="display('9')">9</td>
+            <td onclick="on()" class="on">ON</td>
+        </tr>
+        <tr>
+            <td onclick="display('4')">4</td>
+            <td onclick="display('5')">5</td>
+            <td onclick="display('6')">6</td>
+            <td onclick="off()" class="off">OFF</td>
+            
+        </tr>
+        <tr>
+            <td onclick="display('1')">1</td>
+            <td onclick="display('2')">2</td>
+            <td onclick="display('3')">3</td>
+            <td rowspan="2" onclick="calculate()" class="equal" >=</td>
+        </tr>
+        <tr>
+            <td onclick="display('.')">.</td>
+            <td onclick="display('0')">0</td>
+            <td onclick="clearSC()">C</td>
+            <!--<td></td>-->
+        </tr>
+
+    </table>
+
+</body>
+</html>
